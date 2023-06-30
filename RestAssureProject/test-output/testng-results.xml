@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T12:23:36 IST" name="Default suite" finished-at="2023-06-23T12:23:39 IST" duration-ms="2603">
+  <suite started-at="2023-06-29T21:42:04 IST" name="Default suite" finished-at="2023-06-29T21:42:07 IST" duration-ms="3003">
     <groups>
     </groups>
-    <test started-at="2023-06-23T12:23:36 IST" name="Default test" finished-at="2023-06-23T12:23:39 IST" duration-ms="2603">
-      <class name="jsonPayLoads.Courses">
-        <test-method signature="readJsonDataByExternal1()[pri:0, instance:jsonPayLoads.Courses@49b0b76]" started-at="2023-06-23T12:23:36 IST" name="readJsonDataByExternal1" finished-at="2023-06-23T12:23:39 IST" duration-ms="2529" status="PASS">
+    <test started-at="2023-06-29T21:42:04 IST" name="Default test" finished-at="2023-06-29T21:42:07 IST" duration-ms="3003">
+      <class name="mapsAPI.Create">
+        <test-method signature="createLocationByPojo()[pri:0, instance:mapsAPI.Create@158da8e]" started-at="2023-06-29T21:42:04 IST" name="createLocationByPojo" finished-at="2023-06-29T21:42:07 IST" duration-ms="2945" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readJsonDataByExternal1 -->
-      </class> <!-- jsonPayLoads.Courses -->
+        </test-method> <!-- createLocationByPojo -->
+      </class> <!-- mapsAPI.Create -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

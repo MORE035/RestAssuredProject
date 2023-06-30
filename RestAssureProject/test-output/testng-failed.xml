@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonPayLoads.Courses">
+      <class name="mapsAPI.Create">
         <methods>
-          <include name="readJsonDataByExternal1"/>
+          <include name="createLocationByPojo"/>
         </methods>
-      </class> <!-- jsonPayLoads.Courses -->
+      </class> <!-- mapsAPI.Create -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
